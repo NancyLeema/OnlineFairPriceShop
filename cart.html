@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>All products-ONLINE FAIR PRICE SHOP(FPS)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=P0ppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="images/Red%20and%20Yellow%20Food%20Carts%20Logo.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+            <a href="cart.html"><img src="images/cart2.jpg" width="30px" height="30"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+    
+    <!-------------cart item details--------------------------------->
+    
+    <div class="small-container cart-page">
+        
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                       <img src="images/fortune.jpg">
+                       <div>
+                           <p>cooking oil</p>
+                           <small>Price: ₹160.00 </small>
+                           <a href="">Remove</a>
+                       </div>
+                       
+                    </div> 
+                </td>
+                
+                <td></td>
+                <td><input type="number" value="1"></td>
+                <td>₹160.00</td>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                       <img src="images/kundru%20melaga.jpg">
+                       <div>
+                           <p>Red chilly</p>
+                           <small>Price: ₹150.00 </small>
+                           <a href="">Remove</a>
+                       </div>
+                       
+                    </div> 
+                </td>
+                
+                <td></td>
+                <td><input type="number" value="1"></td>
+                <td>₹150.00</td>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                       <img src="images/salt.png">
+                       <div>
+                           <p>Salt</p>
+                           <small>Price: ₹15.00 </small>
+                           <a href="">Remove</a>
+                       </div>
+                       
+                    </div> 
+                </td>
+                
+                <td></td>
+                <td><input type="number" value="1"></td>
+                <td>₹15.00</td>
+            </tr>
+        </table>
+        
+        <div class="total-price">
+        
+        <table>
+            <tr>
+                <td>subtotal</td>
+                <td>₹325.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>₹10.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>₹335.00</td>
+            </tr>
+        
+            
+        </table>
+        </div>
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    <!--------------------------------------footer-------------------------------------->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/logo12.jpg">
+                        <img src="images/logo10.jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Red%20and%20Yellow%20Food%20Carts%20Logo.jpg">
+                    <p>Our purpose is to Sustainably Make the pleasure and
+                    Benefits of Online Fair Price Shop to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021-SNYV technoworld</p>
+        </div>
+    </div>
+   <!-------------------------------------------js for toggle--------------------------------->
+       <script>
+           var MenuItems = document.getElementById("MenuItems")
+           
+           MenuItems.style.maxHeight = "0px";
+           
+           function menutoggle(){
+               if(MenuItems.style.maxHeight == "0px")
+               {
+                   MenuItems.style.maxHeight = "200px";
+               }
+           
+           else
+               {
+                   MenuItems.style.maxHeight = "0px";
+               }
+           }
+       </script>
+    
+
+    
+</body>
+</html> 
